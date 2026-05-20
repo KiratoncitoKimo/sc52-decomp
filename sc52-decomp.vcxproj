@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClInclude Include="source\dg_math.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dg_math.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -10,4 +10,9 @@
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dg_math.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
