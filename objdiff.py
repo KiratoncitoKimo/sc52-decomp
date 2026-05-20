@@ -31,8 +31,6 @@ def main():
     print(f"Compiling {c_file}")
 
     if folder == "source":
-        # Using '.' instead of a hardcoded file list forces tar to copy 
-        # all subdirectories (like sdk/) recursively into WSL.
         sync_cmd = \
         (
             f'wsl --cd "{wsl_work_dir}" rm -rf source && '
@@ -50,7 +48,6 @@ def main():
 
         ########################################################################
 
-        # Added '-Isource' so ee-gcc can resolve nested includes like "sdk/ninja.h"
         compile_cmd = \
         (
             "wsl", "--cd", wsl_work_dir, compiler_bin,
@@ -65,7 +62,6 @@ def main():
                   f"STDERR: {e.stderr}", file=sys.stderr)
             sys.exit(1)
 
-        # Pure Python replacement for wslpath to prevent Windows backslash mangling crashes
         cleaned_dir = script_dir.replace('\\', '/')
         if len(cleaned_dir) > 1 and cleaned_dir[1] == ':':
             drive = cleaned_dir[0].lower()
