@@ -143,6 +143,13 @@
     <ClInclude Include="source\dg_math.h" />
     <ClInclude Include="source\dg_math_inline.h" />
     <ClInclude Include="source\sdk\ninja.h" />
+    <ClInclude Include="source\sdk\ninjaapi.h" />
+    <ClInclude Include="source\sdk\ninjacnk.h" />
+    <ClInclude Include="source\sdk\ninjadef.h" />
+    <ClInclude Include="source\sdk\ninjaptcl.h" />
+    <ClInclude Include="source\sdk\ninjastr.h" />
+    <ClInclude Include="source\sdk\ninjaval.h" />
+    <ClInclude Include="source\sdk\sg_xpt.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dg_math.c" />

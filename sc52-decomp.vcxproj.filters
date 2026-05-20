@@ -18,6 +18,27 @@
     <ClInclude Include="source\sdk\ninja.h">
       <Filter>Source\SDK</Filter>
     </ClInclude>
+    <ClInclude Include="source\sdk\sg_xpt.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjadef.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjastr.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjacnk.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjaval.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjaapi.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjaptcl.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dg_math.c">
