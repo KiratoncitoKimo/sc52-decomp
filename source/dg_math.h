@@ -1,6 +1,8 @@
 #ifndef DG_MATH_H
 #define DG_MATH_H
 
+#include "sdk/ninja.h"
+
 typedef Angle dgMathAngle1;
 typedef float dgMathVector1;
 typedef NJS_POINT2 dgMathVector2;

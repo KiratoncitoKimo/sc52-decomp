@@ -140,6 +140,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="source\dg_camera.h" />
     <ClInclude Include="source\dg_math.h" />
     <ClInclude Include="source\dg_math_inline.h" />
     <ClInclude Include="source\sdk\ninja.h" />

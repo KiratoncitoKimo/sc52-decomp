@@ -10,14 +10,11 @@ typedef   signed int   Sint32;
 
 typedef float Float;
 
-typedef void  Void;
-
 typedef Sint32 Bool;
 
 #define NULL   ((void*)0)
 
 #define FALSE  (0)
 #define TRUE   (1)
-
 
 #endif // SG_XPT_H

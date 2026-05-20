@@ -7,6 +7,12 @@
     <Filter Include="Source\SDK">
       <UniqueIdentifier>{f5113d19-f617-4324-bea5-2d386a53f2d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\LIB">
+      <UniqueIdentifier>{de2f2b0f-1ab8-447b-a8ff-c65ac175b3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\LIB\Ninja">
+      <UniqueIdentifier>{8e02d19d-93f4-4535-b884-dc6deb7cce53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\dg_math.h">
@@ -38,6 +44,9 @@
     </ClInclude>
     <ClInclude Include="source\sdk\ninjaptcl.h">
       <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_camera.h">
+      <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

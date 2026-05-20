@@ -1,6 +1,8 @@
 #ifndef DG_MATH_INLINE_H
 #define DG_MATH_INLINE_H
 
+#include "dg_math.h"
+
 Float dgMathSin(dgMathAngle1 n);
 Float dgMathCos(dgMathAngle1 n);
 Float dgMathTan(dgMathAngle1 n);

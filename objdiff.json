@@ -1,0 +1,30 @@
+{
+  "custom_make": "python3",
+  "custom_args": [
+    "objdiff.py"
+  ],
+  "build_base": true,
+  "build_target": false,
+  "watch_patterns": [
+    "source/**/*.c",
+    "source/**/*.h"
+  ],
+  "units": [
+    {
+      "name": "dg_camera",
+      "target_path": "target/dg_camera.o",
+      "base_path": "source/dg_camera.o",
+      "metadata": {
+        "source_path": "source/dg_camera.c"
+      }
+    },
+    {
+      "name": "dg_math",
+      "target_path": "target/dg_math.o",
+      "base_path": "source/dg_math.o",
+      "metadata": {
+        "source_path": "source/dg_math.c"
+      }
+    }
+  ]
+}
