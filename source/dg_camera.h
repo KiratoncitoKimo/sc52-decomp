@@ -1,6 +1,23 @@
 #ifndef DG_CAMERA_H
 #define DG_CAMERA_H
 
+typedef struct
+{
+	dgMathVector3 ceye, cint;
+	dgMathAngle1  roll, ang;
+} 
+  dgCamera;
+
+typedef enum
+{
+	DG_CAM_MIRROR_NON,
+	DG_CAM_MIRROR_X,
+	DG_CAM_MIRROR_Y,
+	DG_CAM_MIRROR_Z,
+	DG_CAM_MIRROR_MAX
+} 
+  dgCameraMirrorMode;
+
 void dgCameraCreateWindow(void* parent_task);
 void* dgCameraSet(void* parent_task, NJS_MOTION* motion);
 void* dgCameraGet();
