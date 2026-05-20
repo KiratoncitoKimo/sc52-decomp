@@ -4,6 +4,9 @@
     <Filter Include="Source">
       <UniqueIdentifier>{1eb6034b-37d8-476b-a21d-ddc8cdf6a21e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\SDK">
+      <UniqueIdentifier>{f5113d19-f617-4324-bea5-2d386a53f2d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\dg_math.h">
@@ -11,6 +14,9 @@
     </ClInclude>
     <ClInclude Include="source\dg_math_inline.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninja.h">
+      <Filter>Source\SDK</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
