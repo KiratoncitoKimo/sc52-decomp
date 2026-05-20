@@ -141,9 +141,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="source\dg_math.h" />
+    <ClInclude Include="source\dg_math_inline.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dg_math.c" />
+    <ClCompile Include="source\dg_math_inline.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

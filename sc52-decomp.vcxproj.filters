@@ -9,9 +9,15 @@
     <ClInclude Include="source\dg_math.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="source\dg_math_inline.h">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dg_math.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dg_math_inline.c">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>

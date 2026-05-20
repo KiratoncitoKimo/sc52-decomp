@@ -1,0 +1,4 @@
+#ifndef DG_MATH_INLINE_H
+#define DG_MATH_INLINE_H
+
+#endif // DG_MATH_INLINE_H
