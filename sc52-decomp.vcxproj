@@ -140,19 +140,32 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="source\dg_camdebug.h" />
+    <ClInclude Include="source\dg_camedit_neo.h" />
     <ClInclude Include="source\dg_camera.h" />
+    <ClInclude Include="source\dg_char.h" />
+    <ClInclude Include="source\dg_debug.h" />
+    <ClInclude Include="source\dg_main.h" />
     <ClInclude Include="source\dg_math.h" />
     <ClInclude Include="source\dg_math_inline.h" />
+    <ClInclude Include="source\dg_mem.h" />
+    <ClInclude Include="source\dg_printf.h" />
+    <ClInclude Include="source\dg_screen.h" />
+    <ClInclude Include="source\dg_task.h" />
+    <ClInclude Include="source\lib\uga.h" />
+    <ClInclude Include="source\sdk\gindows.h" />
     <ClInclude Include="source\sdk\ninja.h" />
     <ClInclude Include="source\sdk\ninjaapi.h" />
     <ClInclude Include="source\sdk\ninjacnk.h" />
     <ClInclude Include="source\sdk\ninjadef.h" />
+    <ClInclude Include="source\sdk\ninjadir.h" />
     <ClInclude Include="source\sdk\ninjaptcl.h" />
     <ClInclude Include="source\sdk\ninjastr.h" />
     <ClInclude Include="source\sdk\ninjaval.h" />
     <ClInclude Include="source\sdk\sg_xpt.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\dg_camera.c" />
     <ClCompile Include="source\dg_math.c" />
     <ClCompile Include="source\dg_math_inline.c" />
   </ItemGroup>

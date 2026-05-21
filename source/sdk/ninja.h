@@ -9,4 +9,12 @@
 #include "ninjaapi.h"
 #include "ninjaptcl.h"
 
+// Orphaned header
+// child to ninjacnk
+// nulled in the game
+#include "ninjadir.h"
+
+// Orphaned typedef
+typedef unsigned int size_t;
+
 #endif // NINJA_H

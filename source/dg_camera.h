@@ -1,6 +1,11 @@
 #ifndef DG_CAMERA_H
 #define DG_CAMERA_H
 
+#include "sdk/ninja.h"
+#include "sdk/gindows.h"
+
+#include "dg_math.h"
+
 typedef struct
 {
 	dgMathVector3 ceye, cint;
@@ -17,6 +22,32 @@ typedef enum
 	DG_CAM_MIRROR_MAX
 } 
   dgCameraMirrorMode;
+
+typedef struct { // 0x190
+	/* 0x000 */ Sint8 mirror_mode;
+	/* 0x001 */ Sint8 relative_mode;
+	/* 0x002 */ Sint8 dummy8[14];
+	/* 0x010 */ dgCamera camera;
+	/* 0x030 */ dgMathMatrix cam_mat;
+	/* 0x070 */ dgMathMatrix inv_mat;
+	/* 0x0b0 */ dgMathMatrix inv_mat_nomirror;
+	/* 0x0f0 */ dgMathMatrix relative_mat;
+	/* 0x130 */ float inv_sin;
+	/* 0x134 */ float cos2;
+	/* 0x138 */ GWHWND hwnd;
+	/* 0x13c */ float frame;
+	/* 0x140 */ float prev_frame;
+	/* 0x144 */ NJS_MOTION* motion;
+	/* 0x148 */ NJS_MKEY_F* cpos;
+	/* 0x14c */ NJS_MKEY_F* ctarget;
+	/* 0x150 */ NJS_MKEY_SA1* croll;
+	/* 0x154 */ NJS_MKEY_SA1* cangle;
+	/* 0x158 */ dgMathVector1 mkeyf_blend_param;
+	/* 0x15c */ dgMathAngle1 mkeysa1_blend_param;
+	/* 0x160 */ Sint32 blend_disable_flag;
+	/* 0x164 */ void (*user_disp_func)(/* parameters unknown */);
+	/* 0x168 */ NJS_CAMERA nj_camera;
+} Camera;
 
 void dgCameraCreateWindow(void* parent_task);
 void* dgCameraSet(void* parent_task, NJS_MOTION* motion);

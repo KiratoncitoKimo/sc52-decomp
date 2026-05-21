@@ -13,6 +13,9 @@
     <Filter Include="Source\LIB\Ninja">
       <UniqueIdentifier>{8e02d19d-93f4-4535-b884-dc6deb7cce53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\LIB\UGA">
+      <UniqueIdentifier>{a4270433-9025-4d93-abb5-c858131fb70e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\dg_math.h">
@@ -48,12 +51,51 @@
     <ClInclude Include="source\dg_camera.h">
       <Filter>Source</Filter>
     </ClInclude>
+    <ClInclude Include="source\sdk\gindows.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_debug.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_camdebug.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_printf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_mem.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lib\uga.h">
+      <Filter>Source\LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_camedit_neo.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_char.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sdk\ninjadir.h">
+      <Filter>Source\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_task.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\dg_screen.h">
+      <Filter>Source</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\dg_math.c">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="source\dg_math_inline.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dg_camera.c">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
